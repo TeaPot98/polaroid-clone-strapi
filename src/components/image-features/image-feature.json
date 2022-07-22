@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_image_features_image_features",
+  "info": {
+    "displayName": "Image Feature"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "img": {
+      "type": "string"
+    }
+  }
+}

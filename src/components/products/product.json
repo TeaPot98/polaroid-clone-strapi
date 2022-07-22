@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_products_products",
+  "info": {
+    "displayName": "Product"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "color": {
+      "type": "text"
+    },
+    "model": {
+      "type": "string"
+    },
+    "images": {
+      "type": "json"
+    }
+  }
+}

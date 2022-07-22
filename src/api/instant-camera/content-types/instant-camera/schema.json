@@ -1,0 +1,72 @@
+{
+  "kind": "collectionType",
+  "collectionName": "instant_cameras",
+  "info": {
+    "singularName": "instant-camera",
+    "pluralName": "instant-cameras",
+    "displayName": "Instant Camera",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "price": {
+      "type": "float"
+    },
+    "model": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "heroDescription": {
+      "type": "text"
+    },
+    "heroMobileDescription": {
+      "type": "text"
+    },
+    "navBarDescription": {
+      "type": "text"
+    },
+    "productPageDescription": {
+      "type": "text"
+    },
+    "shortSpecifications": {
+      "type": "json"
+    },
+    "film": {
+      "type": "json"
+    },
+    "heroImage": {
+      "type": "string"
+    },
+    "heroMobileImage": {
+      "type": "string"
+    },
+    "products": {
+      "type": "component",
+      "repeatable": true,
+      "component": "products.product"
+    },
+    "specifications": {
+      "type": "component",
+      "repeatable": true,
+      "component": "specifications.specification"
+    },
+    "imgFeatures": {
+      "type": "component",
+      "repeatable": true,
+      "component": "image-features.image-feature"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "features.feature"
+    },
+    "colors": {
+      "type": "json"
+    }
+  }
+}
